@@ -1,0 +1,13 @@
+$blue: blue;
+$green: green;
+$yellow: yellow;
+
+
+
+.env {
+    background-color: $blue;
+
+    span {
+        background: $yellow;
+    }
+}

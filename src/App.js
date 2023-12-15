@@ -47,6 +47,9 @@ const name = "Onur"
       <Button text="Buton Örneği" variant="success"/>
       <Button text="Buton Örneği" variant="danger"/>
       <Button text="Buton Örneği" variant="warning"/>
+      <Button>
+        Burası Children
+      </Button>
       </div>
 
 

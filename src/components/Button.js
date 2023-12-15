@@ -11,7 +11,7 @@ const Button = ({ children, text, variant = "default"}) => {
       "bg-red-600 text-white": variant === "danger",
       "bg-yellow-200 text-yellow-800": variant === "warning",
 
-    })}>{text}</button>
+    })}>{children}</button>
   )
 }
 

@@ -43,15 +43,19 @@ const name = "Onur"
       <p>{4 + 4}</p>    
 
       <div className="p-5">
-      <Button text="Buton Örneği"/>
-      <Button text="Buton Örneği" variant="success"/>
-      <Button text="Buton Örneği" variant="danger"/>
-      <Button text="Buton Örneği" variant="warning"/>
       <Button>
-        Burası Children
+      Buton Örneği
+      </Button>
+      <Button variant="success">
+      Buton Örneği
+      </Button>
+      <Button variant="danger">
+      Buton Örneği
+      </Button>
+      <Button variant="warning">
+      Buton Örneği
       </Button>
       </div>
-
 
     </main>
     </>

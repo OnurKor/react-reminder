@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 
 import Button from "./components/Button"
+import Tab from "./components/Tab"
 import './tailwind.css'
 // import './style.scss'
 
@@ -26,6 +27,15 @@ const name = "Onur"
   };
   return (
     <>
+    <div className="p-5">
+    <Tab>
+      <Tab.Panel title="Profil">1. Tab</Tab.Panel>
+      <Tab.Panel title="Hakkında">2. Tab</Tab.Panel>
+      <Tab.Panel title="Ayarlar">3. Tab</Tab.Panel>
+    </Tab>
+    </div>
+
+
     <main id='main' className='test'>
       <h1 tabIndex='3' style={{color: 'blue', backgroundColor:'yellow'}}>Onur Kordoğan</h1>
       <label htmlFor="search" tabIndex='2' onClick={() => alert('Merhaba')}>Arama</label>

@@ -10,7 +10,7 @@ import './tailwind.css'
 
 function App() {
 
-const todos = ["onur", "sadık", "halil" ]
+const todos = ["onur", "sadık", 'halil' ]
 const name = "Onur"
 
   const Reactbutton = () => (

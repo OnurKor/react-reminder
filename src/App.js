@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
 
 import Button from "./components/Button"
+import Navbar from "./components/Navbar"
 import Tab from "./components/Tab"
 import './tailwind.css'
 // import './style.scss'
+import './App.css'
 
 
 
@@ -27,6 +29,7 @@ const name = "Onur"
   };
   return (
     <>
+    <Navbar/>
     <div className="p-5">
     <Tab>
       <Tab.Panel title="Profil">1. Tab</Tab.Panel>
